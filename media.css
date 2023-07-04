@@ -1,0 +1,468 @@
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 90%;
+  }
+  .content1 {
+    gap: 20px;
+    height: 500px;
+  }
+  .content1 h1 {
+    font-family: var(--content-heading);
+    font-size: 3.7rem;
+    line-height: 80px;
+    width: 100%;
+  }
+  .course {
+    flex-direction: column;
+  }
+  .course .div {
+    width: 90vh;
+    height: 60vh;
+  }
+  .courselink {
+    position: relative;
+  }
+  .course a::after {
+    content: "";
+    background-color: black;
+    height: 2px;
+    position: absolute;
+    width: 0%;
+    left: 250px;
+
+    /* top: 500px; */
+    transition: all 0.5s;
+  }
+  .course a:hover:after {
+    width: 15%;
+  }
+  .experience {
+    flex-direction: column;
+    align-items: center;
+  }
+  .experience div {
+    width: 90%;
+  }
+  .experience .img h2 {
+    margin: 70% 10%;
+  }
+  .productManager {
+    display: flex;
+    height: 200vh;
+    width: 100%;
+    flex-direction: column;
+  }
+  .productManager .pm {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100%;
+    height: 500px;
+  }
+  .pm .img1 {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .productManager .profile {
+    margin-top: 7%;
+  }
+
+  .explore {
+    text-align: center;
+    width: 100%;
+  }
+  .help {
+    margin-top: 90%;
+    height: 200vh;
+    /* gap: 5%; */
+  }
+  .help .helpSection2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .help .helpSection2 .sec {
+    width: 80%;
+  }
+  .help .helpSection2 .sec {
+    width: 80%;
+    height: 100vh;
+    margin: 5%;
+  }
+  .sec img {
+    height: 350px;
+    width: 100%;
+  }
+  .experties {
+    margin-top: 80%;
+    height: 60vh;
+  }
+  .experties .element {
+    width: 100%;
+  }
+  .experties h2 {
+    font-size: 1.2rem;
+  }
+  .experties h1 {
+    font-size: 2rem;
+  }
+  .experties .button {
+    width: 20%;
+  }
+  .parentGrid {
+    flex-direction: column;
+  }
+  .parentGrid .sec {
+    width: 100%;
+    height: 70vh;
+  }
+  .design {
+    height: 70vh;
+    gap: 50px;
+  }
+  .design h1 {
+    width: 80%;
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+  .design p {
+    width: 100%;
+  }
+  .summary {
+    flex-direction: column;
+  }
+  .summary p {
+    width: 90%;
+    text-align: center;
+  }
+  .values {
+    height: 40vh;
+  }
+  .values h3,
+  h4 {
+    width: 80%;
+  }
+  .contact-section {
+    flex-direction: column;
+    gap: 50px;
+    /* height: 1000px; */
+    height: 120vh;
+    width: 100%;
+    align-items: center;
+  }
+  .contact-section .part {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .contact-section .part .gap {
+    margin-bottom: 30px;
+  }
+  .subscribe a {
+    display: block;
+    border-radius: 0;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+  }
+  /* --------- */
+  .getintouch {
+    background-color: rgb(237, 177, 177);
+  }
+  .contactToggle {
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-section {
+    display: none;
+  }
+  .contactShow {
+    display: block;
+    position: absolute;
+  }
+}
+
+/* ----------------- */
+
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 70%;
+  }
+  .navbar {
+    padding: 5%;
+  }
+  .navbar .middle {
+    display: none;
+    /* flex-direction: column;
+    position: absolute;
+    top: 60px;
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    padding: 10%; */
+  }
+  .navbar .mid {
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    background-color: rgb(231, 211, 211);
+    box-shadow: 0px 0px 5px 1px gray;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+  }
+  .navbar .mid a {
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+  }
+  .navbar .mid a:hover {
+    background-color: gray;
+    color: white;
+  }
+  .navbar .mid a:first-child {
+    border-bottom: 1px solid black;
+  }
+  .blankButton,
+  .button {
+    border-radius: 5px;
+  }
+  .toggle {
+    display: block;
+    order: 3;
+  }
+  .content1 {
+    gap: 1px;
+    padding-top: 20%;
+  }
+  .course .div {
+    margin: 1% auto;
+    width: 60vh;
+    height: 60vh;
+  }
+
+  .course a::after {
+    content: "";
+    background-color: black;
+    height: 2px;
+    position: absolute;
+    width: 0%;
+    left: 140px;
+
+    /* top: 500px; */
+    transition: all 0.5s;
+  }
+  .course a:hover:after {
+    width: 20%;
+  }
+  .experience .img h2 {
+    margin: 100% 10%;
+  }
+  .productManager {
+    display: flex;
+    height: 200vh;
+    width: 100%;
+    flex-direction: column;
+  }
+  .productManager .profile {
+    /* margin-top: 15%; */
+  }
+  .pm .img1 {
+    height: 500px;
+    width: 90%;
+  }
+  .rohit {
+    display: none;
+  }
+  .pm1 p {
+    width: 90%;
+  }
+  .explore {
+    text-align: center;
+  }
+  .experties {
+    margin-top: 90%;
+    height: 60vh;
+  }
+  .experties .button {
+    width: 30%;
+  }
+
+  .parentGrid .sec {
+    width: 100%;
+    height: 45vh;
+  }
+  .parentGrid .sec div {
+    margin-top: 40%;
+  }
+  .design {
+    height: 50vh;
+  }
+  .design h1 {
+    width: 90%;
+  }
+  .design a {
+    width: 40%;
+  }
+  .values {
+    height: 40vh;
+  }
+  .values h3,
+  h4 {
+    width: 100%;
+  }
+}
+
+/* ------------375 */
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 70%;
+  }
+  .content1 {
+    height: 500px;
+    padding-top: 30%;
+    gap: 40px;
+  }
+  .content1 h1 {
+    line-height: 50px;
+  }
+  /*  */
+  .course .div {
+    margin: 1% auto;
+    width: 40vh;
+    height: 60vh;
+  }
+  .course a::after {
+    content: "";
+    background-color: black;
+    height: 2px;
+    position: absolute;
+    width: 0%;
+    left: 120px;
+
+    /* top: 500px; */
+    transition: all 0.5s;
+  }
+  .course a:hover:after {
+    width: 20%;
+  }
+  .course div p {
+    opacity: 0.8;
+  }
+  .experience .img h2 {
+    height: 100px;
+    margin: 70% 10%;
+  }
+  .experience .img {
+    height: 70vh;
+  }
+  .pm .img1 {
+    height: 400px;
+    width: 90%;
+  }
+  .explore {
+    text-align: center;
+  }
+  .help {
+    margin-top: 50%;
+    height: 200vh;
+    /* gap: 5%; */
+  }
+  .help .helpSection2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .help .helpSection2 .sec {
+    width: 80%;
+    height: 70vh;
+    margin: 5%;
+  }
+  .sec img {
+    height: 200px;
+    width: 100%;
+  }
+  .experties {
+    margin-top: 70%;
+    height: 60vh;
+  }
+  .experties .button {
+    width: 30%;
+  }
+  .parentGrid .sec div {
+    margin-top: 65%;
+  }
+  .design {
+    /* height: 80vh; */
+    gap: 50px;
+  }
+  .values h3:first-child {
+    width: 30%;
+    box-shadow: 1px 1px 10px 5px rgb(181, 171, 171);
+  }
+  .values {
+    height: 40vh;
+  }
+  .values h3,
+  h4 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .experience .img {
+    height: 50vh;
+  }
+  .help {
+    margin-top: 30%;
+    height: 200vh;
+    /* gap: 5%; */
+  }
+  .help .helpSection2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .help .helpSection2 .sec {
+    width: 80%;
+    height: 60vh;
+    margin: 5%;
+  }
+  .sec img {
+    height: 200px;
+    width: 100%;
+  }
+  .experties {
+    margin-top: 40%;
+    height: 60vh;
+  }
+  .parentGrid .sec div {
+    margin-top: 75%;
+  }
+  .parentGrid .sec div h2 {
+    font-size: 1.5rem;
+  }
+  .parentGrid .sec div {
+    margin-top: 70%;
+  }
+  .design {
+    align-items: center;
+    /* gap: 0; */
+  }
+  .summary {
+    height: 60vh;
+  }
+  .values h3:first-child {
+    width: 30%;
+    box-shadow: 1px 1px 10px 5px rgb(181, 171, 171);
+  }
+  .values h3,
+  h4 {
+    width: 100%;
+  }
+}
